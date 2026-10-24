@@ -1,26 +1,24 @@
 # 🖐️ 3D Hand Gesture AR (aka The Tony Stark Simulator)
 
-Ever wanted to feel like Tony Stark manipulating holograms with your bare hands? 
+A browser-based Augmented Reality application that uses a webcam and MediaPipe hand tracking to create, scale, and move 3D objects using hand gestures. 
 
-Welcome to a purely browser-based, zero-controller Augmented Reality experiment. No VR headset required. No heavy backend processing. Just you, your webcam, and a whole lot of math running in real-time.
+🔗 **[View Live Interactive App](https://hand-gesture-3-d-lemon.vercel.app/)**  
+🎥 **[Watch Direct Video Demo](https://pranav260605.github.io/hand-gesture-3D/demo.mp4)**
 
-[🎥 **[Click here to watch the direct video demo!](https://pranav260605.github.io/hand-gesture-3D/demo.mp4)**
-
-
-## 🚀 What is happening here?
-I built a spatial computing interface straight in the browser. It tracks your hand landmarks at 60fps and maps them into a 3D coordinate system. 
-
-*   **Creation:** Bring both hands into the frame, pinch your fingers, and pull them apart to spawn and scale 3D wireframe geometry out of thin air.
-*   **Telekinesis:** Drop a hand, pinch an existing shape, and physically drag it across your room.
-*   **The Void:** Drag a shape down to the bottom of your screen to obliterate it into the digital recycle bin.
+## 🚀 Features
+*   **Creation:** Bring both hands into frame, pinch fingers, and pull them apart to spawn and scale 3D geometry.
+*   **Telekinesis:** Grab and drag existing shapes across the scene with one hand.
+*   **Deletion:** Drag shapes into the dynamic recycle bin zone at the bottom to remove them.
 
 ## 🛠️ Tech Stack
-*   **React, Three.js, & React Three Fiber** 
-*   **Google MediaPipe Vision** 
-*   **Vite** 
+*   React & Vite (Frontend)
+*   Three.js & React Three Fiber (3D Graphics)
+*   Google MediaPipe Vision (Real-time Hand Landmark Tracking)
+*   Zustand (State Management)
 
-## 💻 Run it locally
-Clone it, install it, and become a wizard on your own machine.
+## 💻 Run Locally
 ```bash
+git clone [https://github.com/pranav260605/hand-gesture-3D.git](https://github.com/pranav260605/hand-gesture-3D.git)
+cd hand-gesture-3D
 npm install
 npm run dev
