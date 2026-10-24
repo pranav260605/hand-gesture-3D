@@ -4,7 +4,7 @@ Ever wanted to feel like Tony Stark manipulating holograms with your bare hands?
 
 Welcome to a purely browser-based, zero-controller Augmented Reality experiment. No VR headset required. No heavy backend processing. Just you, your webcam, and a whole lot of math running in real-time.
 
-[🎥 **[Click here to watch the direct video demo!](https://pranav260605.github.io/hand-gesture-3d/demo.mp4)**
+[🎥 **[Click here to watch the direct video demo!](https://pranav260605.github.io/hand-gesture-3D/demo.mp4)**
 
 
 ## 🚀 What is happening here?
